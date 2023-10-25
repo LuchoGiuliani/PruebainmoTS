@@ -1,9 +1,13 @@
+import './App.css'
 
-export const App = () => {
+function App() {
+  
+
   return (
-    <div>
-      <h1>hola</h1>
-    </div>
+    <>
+     <h1 className='text-red-200'>Hola Mundo</h1>
+    </>
   )
 }
 
+export default App
